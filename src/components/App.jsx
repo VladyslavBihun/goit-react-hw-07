@@ -21,7 +21,7 @@ function App() {
       <h1>Phonebook</h1>
       <ContactForm />
       <SearchBox />
-      {loading && <p>Loading tasks...</p>}
+      {loading && <p>Loading contacts...</p>}
       {error && <p>Oops. Something went wrong.</p>}
       {items.length > 0 && <ContactList />}
     </div>
